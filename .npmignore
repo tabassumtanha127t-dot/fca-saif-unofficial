@@ -1,5 +1,32 @@
-node_modules
+# Dev / environment
+node_modules/
 .env
 a.js
 fca-config.json
 Fca_Database/
+
+# Git & editor
+.git/
+.github/
+.vscode/
+.idea/
+
+# Docs & examples (not needed in package)
+docs/
+examples/
+SECURITY.md
+ARCHITECTURE.md
+
+# Lint & test config
+.eslintrc*
+.eslintignore
+.prettierrc*
+test/
+tests/
+mocha*
+
+# Logs & misc
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
