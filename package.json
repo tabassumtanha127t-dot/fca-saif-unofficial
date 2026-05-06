@@ -19,6 +19,7 @@
     "src/",
     "DOCS.md",
     "README.md",
+    "LICENSE-MIT",
     "CHANGELOG.md"
   ],
   "scripts": {
