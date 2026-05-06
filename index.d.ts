@@ -1,4 +1,4 @@
-declare module '@dongdev/fca-unofficial' {
+declare module 'fca-saif-unofficial' {
   import type EventEmitter from "events";
   import type { Duplex, Readable, Transform } from "stream";
 
