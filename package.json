@@ -1,7 +1,7 @@
 {
-  "name": "@johnlester-0369/fca-unofficial",
-  "version": "3.0.35",
-  "description": "Unofficial Facebook Chat API for Node.js - Interact with Facebook Messenger programmatically",
+  "name": "fca-saif-unofficial",
+  "version": "1.0.0",
+  "description": "Facebook Chat API for Mikasa Baby Bot",
   "main": "index.js",
   "types": "index.d.ts",
   "exports": {
@@ -19,47 +19,21 @@
     "src/",
     "DOCS.md",
     "README.md",
-    "LICENSE",
+    "LICENSE-MIT",
     "CHANGELOG.md"
   ],
   "scripts": {
     "test": "mocha",
     "lint": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dongp06/fca-unofficial.git"
-  },
   "keywords": [
-    "facebook",
-    "chat",
-    "api",
-    "messenger",
-    "bot",
-    "unofficial",
-    "automation",
-    "facebook-api",
-    "facebook-chat",
-    "facebook-messenger",
-    "chatbot",
-    "nodejs",
-    "fca"
+    "facebook", "chat", "api", "messenger", "bot"
   ],
   "author": {
-    "name": "DongDev",
-    "url": "https://www.facebook.com/mdong.dev"
+    "name": "Saif",
+    "url": "https://github.com/tabassumtanha127t-dot"
   },
-  "contributors": [
-    {
-      "name": "DongDev",
-      "url": "https://github.com/dongp06"
-    }
-  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dongp06/fca-unofficial/issues"
-  },
-  "homepage": "https://github.com/dongp06/fca-unofficial#readme",
   "engines": {
     "node": ">=12.0.0"
   },
@@ -80,9 +54,5 @@
   "devDependencies": {
     "eslint": "^8.50.0",
     "mocha": "^10.2.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   }
 }
