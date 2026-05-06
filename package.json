@@ -1,7 +1,7 @@
 {
   "name": "fca-saif-unofficial",
   "version": "1.0.0",
-  "description": "Facebook Chat API for Mikasa Baby Bot",
+  "description": "Unofficial Facebook Chat API - Stable, error-free, all features unlocked",
   "main": "index.js",
   "types": "index.d.ts",
   "exports": {
@@ -19,7 +19,6 @@
     "src/",
     "DOCS.md",
     "README.md",
-    "LICENSE-MIT",
     "CHANGELOG.md"
   ],
   "scripts": {
@@ -27,7 +26,8 @@
     "lint": "eslint ."
   },
   "keywords": [
-    "facebook", "chat", "api", "messenger", "bot"
+    "facebook", "messenger", "chat", "api", "bot",
+    "fca", "goatbot", "unofficial", "nodejs"
   ],
   "author": {
     "name": "Saif",
@@ -54,5 +54,9 @@
   "devDependencies": {
     "eslint": "^8.50.0",
     "mocha": "^10.2.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
